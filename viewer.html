@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		<title>framework | unknown @action comments</title>
+		<!-- Tell the browser to be responsive to screen width -->
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<!-- bootstrap -->
+		<link href="http://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+		
+		<link rel="stylesheet" href="jquery.viewer.min.css">
+		<script src="jquery.viewer.min.js"></script>
+		
+		<script type="text/javascript">
+		$(function(){
+			$("[rel-action=viewer]").each(function(){
+				$(this).viewer($(this).data());
+			});
+		});
+		</script>
+	</head>
+	<body class="skin-purple hold-transition sidebar-mini sidebar-collapse-disabled">
+<div class="box box-success">
+	<div class="box-body">
+		<table class="table table-bordered table-striped" rel-action="viewer">
+			<tr>
+				<td class="text-right col-sm-2">营业执照图片</td>
+				<td>
+					<a href="javascript:void(0);">
+						<img src="https://www.baidu.com/img/bd_logo1.png?where=super" />
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-right col-sm-2">法人身份证正面图片</td>
+				<td>
+					<a href="javascript:void(0);">
+						<img src="https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_1f9876a.png" />
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-right col-sm-2">法人身份证背面图片</td>
+				<td>
+					<a href="javascript:void(0);">
+						<img src="https://gss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png" />
+					</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
+	</body>
+</html>
